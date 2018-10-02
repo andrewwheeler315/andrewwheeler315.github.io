@@ -1,38 +1,24 @@
 .button-group {
     text-align: center;
-    background: linear-gradient(
-        to right,
-        gray 0%,
-        white 25%,
-        gray 50%,
-        white 75%,
-        gray 100%
-    );
 }
 
 h1 {
+    color: black;
+    text-align: center;
+}
+
+h2 {
     text-align: center;
     color: black;
-    background: linear-gradient(
-        to right,
-        gray 0%,
-        white 25%,
-        gray 50%,
-        white 75%,
-        gray 100%
-    );
+}
+
+h3 {
+    text-align: center;
+    color: black;
 }
 
 p {
     color: black;
-    background: linear-gradient(
-        to right,
-        gray 0%,
-        white 25%,
-        gray 50%,
-        white 75%,
-        gray 100%
-    );
     text-align: center;
     font-size: 20px;
 }
@@ -40,24 +26,18 @@ p {
 body {
     background: linear-gradient(
         to right,
-        gray 0%,
+        grey 0%,
         white 25%,
-        gray 50%,
+        grey 37.5%,
+        white 50%,
+        grey 62.5%,
         white 75%,
-        gray 100%
+        grey 100%
     );
 }
 
 .footer {
     text-decoration-color: blue;
-    background: linear-gradient(
-        to right,
-        grey 0%,
-        white 25%,
-        grey 50%,
-        white 75%,
-        grey 100%
-    );
 }
 
 h5 {
