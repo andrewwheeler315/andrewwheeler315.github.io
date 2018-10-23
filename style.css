@@ -23,6 +23,9 @@ p {
     font-size: 20px;
 }
 
+strong {
+    font-size: 10px;
+}
 body {
     background: linear-gradient(
         to right,
@@ -38,6 +41,9 @@ body {
 
 .footer {
     text-decoration-color: blue;
+    border: 2px solid blue;
+    border-width: 4px;
+    padding-top: 1px;
 }
 
 h5 {
@@ -52,4 +58,14 @@ a {
 a:hover {
     text-decoration: none;
     color: blue;
+}
+
+img {
+    width: 375px;
+    height: 275px;
+    transform: rotate(90deg);
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
 }
